@@ -48,4 +48,4 @@ after that we can update data use same method like POST
 - to DELETE, set postman to DELETE and fill that with ```localhost:8080/v1/animal/{id}```
 
 ### Addresses of the API
-Addresses of the API is ```localhost:8080/v1/animal``` and ```localhost:8080/v1/animal/{id}``` for PUT,GET single data, and DELETE function
+Addresses of the API are ```localhost:8080/v1/animal``` and ```localhost:8080/v1/animal/{id}``` for PUT,GET single data, and DELETE function
