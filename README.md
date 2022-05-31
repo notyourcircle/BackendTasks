@@ -10,7 +10,7 @@ gorm.Open("mysql", "<user>:<password>@tcp(127.0.0.1:3306)/<database>?charset=utf
 ```
 Don't forget to open  XAMMP and activate MySQL and don't forget to make new database which will be used
 
-
+### How to run the application
 This REST API used GIN and GORM framwork, so dont forget to do
 ```
 go get gopkg.in/gin-gonic/gin.v1
@@ -18,8 +18,6 @@ go get -u github.com/jinzhu/gorm
 go get github.com/go-sql-driver/mysql
 ```
 if you not copy go.mod and go.sum file
-
-### How to run the application
 To run this application just do 
 ```
 go run main.go
