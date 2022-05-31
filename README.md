@@ -8,7 +8,8 @@ with
 ```
 gorm.Open("mysql", "<user>:<password>@tcp(127.0.0.1:3306)/<database>?charset=utf8&parseTime=True&loc=Local")
 ```
-Don't forget to open  XAMPP and activate MySQL and don't forget to make new database which will be used
+Don't forget to open  XAMPP and activate MySQL
+Don't forget to make new database which will be used
 
 ### How to run the application
 This REST API used GIN and GORM framwork, so dont forget to do
